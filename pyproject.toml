@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "family-tree-viz"  
+version = "0.1.0"
+description = "Python package for visualizing family trees using graphviz."
+authors = [
+  { name="Whispard", email="whispard.dev@proton.me" }
+]
+readme = "README.md"
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/whispard/family-tree-viz"
+"Bug Tracker" = "https://github.com/whispard/family-tree-viz/issues"
+
+[tool.setuptools.packages.find]
+include = ["family_tree_viz"]

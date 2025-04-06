@@ -1,0 +1,42 @@
+{
+    "1": {
+        "user_id": 1,
+        "edge": 0,
+        "node": 4294967040,
+        "font": 0,
+        "highlighted_font": 16777215,
+        "highlighted_node": 4294967040,
+        "background": 11393254,
+        "direction": "TB"
+    },
+    "2": {
+        "user_id": 2,
+        "edge": 993030,
+        "node": 14296357,
+        "font": 9192516,
+        "highlighted_font": 8611173,
+        "highlighted_node": -1,
+        "background": 1530222,
+        "direction": "TB"
+    },
+    "3": {
+        "user_id": 3,
+        "edge": 713973,
+        "node": -1,
+        "font": 16777215,
+        "highlighted_font": 14679808,
+        "highlighted_node": -1,
+        "background": 0,
+        "direction": "TB"
+    },
+    "4": {
+        "user_id": 4,
+        "edge": 16777215,
+        "node": 0,
+        "font": 8010555,
+        "highlighted_font": 10956388,
+        "highlighted_node": 8629214,
+        "background": 0,
+        "direction": "TB"
+    }
+}
