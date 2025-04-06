@@ -64,7 +64,6 @@ class TreeRenderer:
             # if tree_type == TreeType.FULL and current_user.family_member_count > 120:
             #     options.image_format = "-Tpdf"
             #     image_filename = "tree.pdf"
-        print(dot_code)
         with tempfile.NamedTemporaryFile(delete=False, suffix='.gz') as tmp:
             tmp.write(dot_code.encode())
 
@@ -73,7 +72,6 @@ class TreeRenderer:
             engine=layout_engine, 
             image_format=options.image_format,tmp_path=tmp.name ,scale=scale,font= options.font, output_path=options.output_path, 
         )
-        print(f"Executing: {exec_args}")
         file_data_or_empty = await self.execute_dot(exec_args,dot_code)
         if file_data_or_empty:
             return TreeOutput(file_data_or_empty, options.image_format)

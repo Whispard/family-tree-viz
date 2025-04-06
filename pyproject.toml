@@ -18,9 +18,11 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
+dependencies = [
+    "Pillow>=8.0.0"
+]
+
 [project.urls]
 "Homepage" = "https://github.com/whispard/family-tree-viz"
 "Bug Tracker" = "https://github.com/whispard/family-tree-viz/issues"
 
-[tool.setuptools.packages.find]
-include = ["family_tree_viz"]

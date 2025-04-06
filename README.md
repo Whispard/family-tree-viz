@@ -1,6 +1,6 @@
-## Python Family Tree Generator
+## Python Family Tree Visualizing
 
-This is library for generating family trees in Python using graphviz. It allows you to create and visualize family trees with ease. The library supports various formats for output, including PDF, JPG, and more. You can customize the appearance of the tree, including node labels and colors. 
+This is library for visualizing family trees in Python using graphviz. It allows you to create and visualize family trees with ease. The library supports various formats for output, including PDF, JPG, and more. You can customize the appearance of the tree, including node labels and colors. 
 
 ## Features
 - Generate family trees in various formats (PDF, JPG, etc.)
@@ -60,7 +60,7 @@ asyncio.run(main())
 ```
 
 this will generate a simple family tree with two members and display it.
-![T1, followed by T2 below](examples/quick.jpg)
+![T1, followed by T2 below](examples/media/quick.jpg)
 
 
 Detailed Usage:
